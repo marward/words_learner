@@ -3,6 +3,5 @@
 
 ## Требуемые методы
 
-- GET /add_word Params: word: str, translation: str.  Добавляет в список слов пользователя новое слово и перевод 
+- POST /add_word Params: word: str, translation: str.  Добавляет в список слов пользователя новое слово и перевод 
 - GET /today_vocabulary Возвращает 10 случайных слов из списка
-
